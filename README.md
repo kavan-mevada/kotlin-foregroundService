@@ -2,7 +2,7 @@
 Kotlin code for foreground service android with android o notifications
 
 
-## MainActivity.kt Code
+## MainActivity.kt
 
 ```
 class MainActivity : AppCompatActivity() {
@@ -132,7 +132,7 @@ fun Context.toast(message:String){
 }
 ```
 
-## MyService.kt Code
+## MyService.kt
 
 ```
 class MyService : Service() {
@@ -255,3 +255,13 @@ class MyService : Service() {
     }
 }
 ```
+
+## AndroidManifest.xml
+
+```
+       <service
+            android:name=".MyService"
+            android:enabled="true"
+            android:exported="true"
+            />
+````

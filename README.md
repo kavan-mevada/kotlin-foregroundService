@@ -259,9 +259,5 @@ class MyService : Service() {
 ## AndroidManifest.xml
 
 ```
-       <service
-            android:name=".MyService"
-            android:enabled="true"
-            android:exported="true"
-            />
+<service android:name=".MyService" android:enabled="true" android:exported="true" />
 ````
